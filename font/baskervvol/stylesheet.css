@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BBBaskervvolBase';
+    src: url('BBBBaskervvol-Base.woff2') format('woff2'),
+         url('BBBBaskervvol-Base.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BBBaskervvolFondue';
+    src: url('BBBBaskervvol-Fondue.woff2') format('woff2'),
+         url('BBBBaskervvol-Fondue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
