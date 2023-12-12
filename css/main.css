@@ -35,6 +35,14 @@ body{
   background-image: linear-gradient(white, rgb(214, 251, 168));*/
 }
 
+.text::-webkit-scrollbar {
+  display: none;
+}
+
+.tableau::-webkit-scrollbar {
+  display: none;
+}
+
 .tableau{ 
   z-index: 1;
   padding-top: 10px;
