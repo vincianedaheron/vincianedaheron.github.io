@@ -1,323 +1,138 @@
-
-@media (min-width: 500px) {
-
-  body{
-     /*background-image: linear-gradient(rgb(255, 255, 255), rgb(120, 159, 249));
-   overflow: hidden;
-    background-image: url("/media/fond1.png");*/
-  }
-
-  .fond{
-    z-index: -10;
-    margin: 0%;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-
-  header { 
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    height: 50px; 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 5;
-    font-family: 'BBBaskervvolBase';
-    font-size: 15px;
-    /*text-shadow: 3px 3px 5px rgb(255,120,255);
-    background-color: rgb(255,180,255);*/
-    backdrop-filter: blur(10px);
-  }
-
-  a{
-    color: black;
-  }
-
-  .content{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    height: 100vh;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    margin: 0%;
-  }
-
-  .content:-webkit-scrollbar {
-    display: none;
-  }
-
-  .text{
-    flex-basis: 60%;
-    padding-top: 180px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    margin: 0%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 1;
-    font-family:'BBBaskervvolBase';
-    line-height: 24px;
-    font-size: 20px;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;
-    /*text-decoration: underline 35px white;
-    background-image: linear-gradient(white, rgb(214, 251, 168));*/
-  }
-
-  .text:-webkit-scrollbar {
-    display: none;
-  }
-
-  ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    background: transparent; /* make scrollbar transparent */
-  }
-
-  #transition{
-    display: flex;
-    justify-content: center;
-    color: white;
-    -webkit-text-stroke: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px; 
-  }
-
-  #citation{
-    font-style: italic;
-  }
-
-
-  .project{ 
-   
-    padding-top: 60px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    flex-basis: 40%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 1;
-    font-family: 'BBBaskervvolBase';
-    line-height: 16px;
-    font-size: 14px;
-  }
-
-  .description{
-    
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
-  }
-
-  .image{
-    height: 400px;
-    margin-left: 15px;
-  }
-
-  .contour{
-    border: 1px solid rgb(255,180,255);
-  }
-
-  .first{
-    margin: 0%;
-  }
-
-  .slide{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    overflow-x:auto;
-    width: 100%;
-    position: relative;
-    padding-left: 0;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-  }
-  canvas {
-    pointer-events: none;
-    z-index: -2;
-    backdrop-filter: blur(10px);
-  }
-
-  .titre{
-    font-family: 'Louise';
-    font-size: 9vw;
-    font-style: italic;
-    color: white;
-    -webkit-text-stroke: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px; 
-    margin-top: 45px;
-    margin-bottom: 90px;
-    margin-left: 0%;
-  }
-
-  #titreprojet{
-    font-style: italic;
-  }
-
+body{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  /*background-image: url("/media/fond.png");*/
 }
 
 
+.content{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  margin: 0%;
+}
 
+.text{
+  flex-basis: 30%;
+  padding-top: 50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  margin: 0%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 5;
+  line-height: 24px;
+  font-size: 20px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  /*text-decoration: underline 35px white;
+  background-image: linear-gradient(white, rgb(214, 251, 168));*/
+}
 
-
-
-
-
-
-
-@media (max-width: 500px) {
-
-
-  body{
-    /*background-image: linear-gradient(white, rgb(214, 251, 168));*/
-   
-  }
-
-  header { 
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    height: 50px; 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    text-align: center;
-    z-index: 5;
-    font-family: 'OrticaLight';
-    font-size: 15px;
-    /*text-shadow: 3px 3px 5px rgb(255,120,255);
-    background-color: rgb(255,180,255);*/
-    backdrop-filter: blur(10px);
-  }
-
-  a{
-    color: black;
-  }
-
-  .content{
-    height: 100vh;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    margin: 0%;
-  }
-
-  .content:-webkit-scrollbar {
-    display: none;
-  }
-
-  .text{
-    padding-top: 60px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    margin: 0%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 1;
-    font-family:'OrticaLight';
-    font-size: 20px;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;
-    /*background-image: linear-gradient(white, rgb(214, 251, 168));*/
-  }
-
-  .text:-webkit-scrollbar {
-    display: none;
-  }
-
-  ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    background: transparent; /* make scrollbar transparent */
-  }
-
-  #transition{
-    display: flex;
-    justify-content: center;
-    color: white;
-    -webkit-text-stroke: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px; 
-  }
-
-  #citation{
-    font-style: italic;
-  }
-
-
-  .project{ 
-    padding-top: 60px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 1;
-    font-family: 'OrticaLight';
-    font-size: 14px;
-  }
-
-  .description{
-    
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
-  }
-
-  .image{
-    height: 400px;
-    margin-left: 15px;
-  }
-
-  .contour{
-    border: 1px solid rgb(255,180,255);
-  }
-
-  .first{
-    margin: 0%;
-  }
-
-  .slide{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    overflow-x:auto;
-    width: 100%;
-    position: relative;
-    padding-left: 0;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 0px;
-  }
-  canvas {
-    pointer-events: none;
-    z-index: -1;
-  }
-
-  .titre{
-    font-family: 'Louise';
-    font-size: 8vw;
-    font-style: italic;
-    color: white;
-    -webkit-text-stroke: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px; 
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-  }
-
-  #titreprojet{
-    font-family: 'MessapiaRegular';
-  }
-
+.tableau{ 
+  z-index: 1;
+  padding-top: 10px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  flex-basis: 70%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
 }
 
 
+table, th, td {
+  border: 1px solid red;
+}
 
+table{
+  background-color: white;
+}
 
+.image{
+  width: 40px;
+  margin-bottom: 15px;
+  filter: brightness(90%);
+  border-radius: 12px;
+  background-color: red;
+  border: groove 5px red;/*
+  margin-left: 15px;*/
+}
 
+.image:hover{
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: 50px;
+  margin-bottom: 15px;
+  filter: brightness(90%);
+  border-radius: 12px;/*
+  margin-left: 15px;*/
+}
 
+.slide{
+  margin: 20px;/*
+  position: fixed;
+  top: 0px;
+  left: 0px;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 0%;
+  left: 0%;/*
+  flex-direction: row;
+  justify-content:flex-start;
+  overflow-x:auto;
+  width: 100%;
+  position: relative;
+  padding-left: 0;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 0px;*/
+  
+}
+
+.reveal{
+  margin: 20px;/*
+  position: fixed;
+  top: 0px;
+  left: 0px;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 0%;
+  left: 0%;/*
+  flex-direction: row;
+  justify-content:flex-start;
+  overflow-x:auto;
+  width: 100%;
+  position: relative;
+  padding-left: 0;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 0px;*/
+  
+}
+
+/*.layer{
+  margin-right: 15px;
+}
+
+.fond{
+  z-index: -10;
+  margin: 0%;
+  width: 100%;
+  position: absolute;
+  top : 0px;
+  left: 0px;
+  display: none;
+}
+*/
