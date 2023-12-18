@@ -61,6 +61,7 @@ p{
   overflow-x: hidden;
   z-index: 1;
   margin: 0%;
+  padding-bottom: 15px;
   color: black;
   overflow: auto;
   font-family: 'SneakyTimes';
