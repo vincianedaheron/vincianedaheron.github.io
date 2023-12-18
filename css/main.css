@@ -1,7 +1,8 @@
 body{
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-family: 'SneakyTimes';
   background-color: rgb(255, 255, 255);
+  padding: 0%;
   /*background-image: url("/media/fond.png");*/
 }
 
@@ -13,46 +14,56 @@ body{
   height: 100vh;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  margin: 0px;
+  padding: 0%;
+}
+
+.titre{
+  font-size: 60px;
+  line-height: 63px;
+  padding-bottom: 31px;
+  flex-basis: 30%;
   margin: 0%;
 }
 
-.text{
-  font-family: Arial, Helvetica, sans-serif;
-  flex-basis: 30%;
-  padding-top: 50px;
-  padding-left:20px;
-  padding-right:20px;
-  padding-bottom:20px;
+p{
   margin: 0%;
+  padding: 0%;
+}
+
+.text{
+  flex-basis: 30%;
+  margin: 0%;
+  padding: 0%;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 5;
-  line-height: 24px;
-  font-size: 20px;
+  line-height: 30px;
+  font-size: 27px;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
+  color: red;
   /*text-decoration: underline 35px white;
   background-image: linear-gradient(white, rgb(214, 251, 168));*/
 }
 
-.text::-webkit-scrollbar {
-  display: none;
-}
-
-.tableau::-webkit-scrollbar {
-  display: none;
+.resume{
+  border-top: 2px solid red;
+  padding-left:0px;
+  padding-right:20px;
+  padding-bottom:40px;
 }
 
 .tableau{ 
   z-index: 1;
-  padding-top: 10px;
-  padding-left:20px;
-  padding-right:20px;
-  padding-bottom:20px;
   flex-basis: 70%;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 1;
+  margin: 0%;
+  color: black;
+  overflow: auto;
+  font-family: 'SneakyTimes';
 }
 
 
@@ -62,6 +73,9 @@ table, th, td {
 
 table{
   background-color: white;
+  
+  margin: 0px;
+  padding: 0%;
 }
 
 .image{
@@ -70,8 +84,14 @@ table{
   filter: brightness(90%);
   border-radius: 12px;
   background-color: red;
-  border: groove 5px red;/*
+  /*border: groove 5px red;
   margin-left: 15px;*/
+}
+
+
+.pngg{
+  width: 100%;
+  border-top: 2px solid red;
 }
 
 .image:hover{
@@ -86,16 +106,21 @@ table{
 }
 
 .slide{
-  margin: 20px;/*
+  margin: 0px;/*
   position: fixed;
   top: 0px;
   left: 0px;*/
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   position: absolute;
   top: 0%;
-  left: 0%;/*
+  left: 0%;*/
+  padding-top: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  width: 30%;
+  height: auto;/*
   flex-direction: row;
   justify-content:flex-start;
   overflow-x:auto;
